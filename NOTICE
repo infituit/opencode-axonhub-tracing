@@ -1,0 +1,13 @@
+opencode-axonhub-tracing — NOTICE
+
+This project is derived from looplj/opencode-axonhub-tracing:
+https://github.com/looplj/opencode-axonhub-tracing
+
+The project is now independently maintained by infituit contributors:
+https://github.com/infituit/opencode-axonhub-tracing
+
+Attribution to the original author and historical contributors is retained
+in the Git history. Independent maintenance does not imply a transfer of
+the original authors' copyright or their endorsement of this distribution.
+
+The existing MIT license identifier in package.json is retained.

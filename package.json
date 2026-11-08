@@ -17,7 +17,9 @@
     }
   },
   "files": [
-    "dist"
+    "dist",
+    "README.md",
+    "NOTICE"
   ],
   "scripts": {
     "build": "bun build index.ts --outdir dist --target node && bunx tsc -p tsconfig.build.json",
@@ -33,15 +35,16 @@
     "headers",
     "llm"
   ],
+  "author": "infituit",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/looplj/opencode-axonhub-tracing.git"
+    "url": "git+https://github.com/infituit/opencode-axonhub-tracing.git"
   },
   "bugs": {
-    "url": "https://github.com/looplj/opencode-axonhub-tracing/issues"
+    "url": "https://github.com/infituit/opencode-axonhub-tracing/issues"
   },
-  "homepage": "https://github.com/looplj/opencode-axonhub-tracing#readme",
+  "homepage": "https://github.com/infituit/opencode-axonhub-tracing#readme",
   "peerDependencies": {
     "@opencode-ai/plugin": ">=1.0.0",
     "typescript": ">=5.0.0"
